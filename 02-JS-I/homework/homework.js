@@ -3,8 +3,12 @@
 const { stringify } = require("git-url-parse");
 
 // Crea una variable "string", puede contener lo que quieras:
+<<<<<<< HEAD
 const nuevaString = "Hola";
 
+=======
+const nuevaString = "hola";
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 10;
@@ -32,54 +36,77 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
 
+<<<<<<< HEAD
 return str;
+=======
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+<<<<<<< HEAD
   return x + y;
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
 
+<<<<<<< HEAD
 return x - y;
+=======
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
 
+<<<<<<< HEAD
 return x * y;
 
+=======
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
 
+<<<<<<< HEAD
 return x / y;
+=======
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
  
 if (x===y) return true;
 else return false;
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
 if (str1.length==str2.length) return true;
 else return false;
 
+=======
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 
 }
 
@@ -87,75 +114,119 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
  if (num<90) return true;
  return false 
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
 if (num>50) return true;
 return false;
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+<<<<<<< HEAD
 return x % y;
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
 if (num%2==0) return true;
 return false 
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
 if (num%2==1) return true;
 return false;
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+<<<<<<< HEAD
 return Math.pow(num,2);
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+<<<<<<< HEAD
 return Math.pow(num,3);
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+<<<<<<< HEAD
 return Math.pow(num,exponent);
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
+<<<<<<< HEAD
 return Math.round(num);
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
+<<<<<<< HEAD
 return Math.ceil(num);
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
+<<<<<<< HEAD
 return Math.random()
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function esPositivo(numero) {
@@ -163,9 +234,13 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
+<<<<<<< HEAD
 if (numero>0) return "Es positivo";
 else if (numero<0) return "Es negativo";
 return false;
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function agregarSimboloExclamacion(str) {
@@ -178,30 +253,47 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
+<<<<<<< HEAD
   var combinar= nombre +" "+ apellido;
   return combinar;
 } 
+=======
+
+}
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+<<<<<<< HEAD
   return 'Hola '+ nombre + "!";
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
+<<<<<<< HEAD
 var obtenerArearec=(alto*ancho);
 return obtenerArearec;
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
+<<<<<<< HEAD
 var retornaperimetro= (lado*4);
 return retornaperimetro;
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 
@@ -218,8 +310,12 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
+<<<<<<< HEAD
    var deeuroadolar=(euro*1.20);
    return deeuroadolar;
+=======
+
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 }
 
 
@@ -229,6 +325,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
+<<<<<<< HEAD
 if (letra=="a") return "Es vocal";
 else if (letra =="e") return "Es vocal";
  else if (letra =="i") return "Es vocal";
@@ -236,6 +333,8 @@ else if (letra =="e") return "Es vocal";
   else if (letra =="u") return "Es vocal";
   else if (letra.length>1) return "Dato incorrecto";
   else return "Dato incorrecto";
+=======
+>>>>>>> 51ac8fccbb7eba8bd825609a156f954644e8f957
 
 }
 
